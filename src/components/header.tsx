@@ -17,7 +17,7 @@ const menus = [
     label: "About",
     href: "/about",
     items: [
-      { href: "/about", label: "The practice" },
+      { href: "/about", label: "About" },
       { href: "/team", label: "Team" },
       { href: "/locations", label: "Locations" },
     ],
