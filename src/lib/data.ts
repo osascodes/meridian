@@ -44,9 +44,9 @@ export const team = [
 ];
 
 export const testimonials = [
-  { quote: "PropertyHub made finding our home in Ikoyi simple from the first note to the keys.", name: "Ada Cole", place: "Ikoyi" },
-  { quote: "They sent three houses. We viewed two. We took the second. No theatre.", name: "David Ade", place: "Lekki" },
-  { quote: "Clear papers, a working generator, and an agent who answered on the same day.", name: "Sarah Miles", place: "Victoria Island" },
+  { quote: "Meridian made finding our home in Ikoyi straightforward from the first enquiry to the keys.", name: "Ada Cole", place: "Ikoyi" },
+  { quote: "They presented three houses. We viewed two. We took the second. Clear and efficient.", name: "David Ade", place: "Lekki" },
+  { quote: "Clear papers, a working generator, and a team that answered the same day.", name: "Sarah Miles", place: "Victoria Island" },
 ];
 
 export function filterProperties(list: Property[], f: Record<string, string | undefined>) {
