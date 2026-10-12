@@ -8,7 +8,7 @@ export default function DevelopmentsPage() {
     <div className="mx-auto max-w-6xl px-5 pb-24 pt-28 md:px-8">
       <Reveal dir="up">
         <h1 className="font-serif text-5xl">Our developments</h1>
-        <p className="mt-4 max-w-xl text-mist">Buildings we have finished or placed under the PropertyHub name.</p>
+        <p className="mt-4 max-w-xl text-mist">A small number of schemes we represent across Ikoyi, Lekki, and Victoria Island.</p>
       </Reveal>
       <div className="mt-14 grid gap-10 md:grid-cols-3">
         {developments.map((d, i) => (

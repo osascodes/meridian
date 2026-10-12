@@ -9,7 +9,7 @@ const sans = Outfit({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: { default: "Meridian — Lagos residences", template: "%s · Meridian" },
-  description: "A Lagos real-estate practice for homes, lettings, and developments in Lekki, Ikoyi, Victoria Island, and Ikeja.",
+  description: "Meridian advises on residences, lettings, and developments in Lekki, Ikoyi, Victoria Island, and Ikeja.",
   formatDetection: { telephone: false, email: false, address: false },
 };
 

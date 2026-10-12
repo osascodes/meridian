@@ -9,10 +9,10 @@ export default function AboutPage() {
         <h1 className="mt-4 font-serif text-5xl">Who we are</h1>
       </Reveal>
       <Reveal dir="left" className="mt-8">
-        <p className="leading-relaxed text-mist">Meridian is a Lagos practice. We started by walking streets in Lekki and Ikoyi and writing down which houses still felt like homes after ten years. That notebook became the desk.</p>
+        <p className="leading-relaxed text-mist">Meridian is a Lagos real estate firm. We advise clients on residences, lettings, and a select number of developments across the city’s most established neighbourhoods.</p>
       </Reveal>
       <Reveal dir="right" className="mt-4">
-        <p className="leading-relaxed text-mist">Today we place residences, lettings, and three developments. We do not run a feed of every listing in the city.</p>
+        <p className="leading-relaxed text-mist">Our work is grounded in local knowledge. Every property is reviewed in person, with clear guidance from the first enquiry through to completion.</p>
       </Reveal>
       <div className="mt-16 grid gap-8 border-t border-line pt-10 text-center md:grid-cols-3">
         {[

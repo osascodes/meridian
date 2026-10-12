@@ -1,6 +1,6 @@
-# PropertyHub
+# Meridian
 
-Lagos real-estate company website. Agency site with properties, developments, locations, team, and enquiries.
+Lagos real estate firm. Residences, lettings, and developments.
 
 ```bash
 npm install
