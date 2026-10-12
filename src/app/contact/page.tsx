@@ -13,7 +13,7 @@ export default function ContactPage() {
           <p>+234 809 441 2200</p>
           <p>hello@meridian.ng</p>
         </div>
-        <a href="https://wa.me/2348094412200" className="mt-6 inline-block text-gold">WhatsApp the desk →</a>
+        <a href="https://wa.me/2348094412200" className="mt-6 inline-block text-gold">WhatsApp us →</a>
       </Reveal>
       <Reveal dir="right"><EnquiryForm /></Reveal>
     </div>
