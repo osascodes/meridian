@@ -8,9 +8,9 @@ import { developments, locations, properties, team, testimonials } from "@/lib/d
 
 const services = [
   { n: "01", title: "Buy", text: "Houses and apartments for sale in Lekki, Ikoyi, Victoria Island, and GRA.", href: "/properties?listing=For%20Sale" },
-  { n: "02", title: "Let", text: "A short list of lettings. We place tenants without flooding the market.", href: "/properties?listing=For%20Rent" },
-  { n: "03", title: "Developments", text: "Units in a small number of schemes we represent — not a contractor’s yard.", href: "/developments" },
-  { n: "04", title: "Consultancy", text: "Viewings, title notes, and a straight brief before anyone pays a retainer.", href: "/contact" },
+  { n: "02", title: "Let", text: "A carefully managed selection of lettings across the island and GRA.", href: "/properties?listing=For%20Rent" },
+  { n: "03", title: "Developments", text: "Units in a small number of schemes we represent.", href: "/developments" },
+  { n: "04", title: "Consultancy", text: "Guidance on viewings, title, and the steps before a commitment.", href: "/contact" },
 ];
 
 export default function HomePage() {
@@ -22,10 +22,10 @@ export default function HomePage() {
         <div className="grid gap-12 md:grid-cols-2">
           <Reveal dir="left">
             <p className="text-xs uppercase tracking-[0.24em] text-gold">Who we are</p>
-            <h2 className="mt-4 font-serif text-4xl md:text-5xl">A desk that still walks the street.</h2>
+            <h2 className="mt-4 font-serif text-4xl md:text-5xl">A firm built on local knowledge.</h2>
           </Reveal>
           <Reveal dir="right">
-            <p className="leading-relaxed text-mist">Meridian began with notes on houses in Lekki and Ikoyi that still felt like homes after a decade. We now place a curated set of residences, lettings, and three developments.</p>
+            <p className="leading-relaxed text-mist">Meridian advises on residences across Lagos. We represent a curated portfolio of homes, lettings, and developments, with clear guidance from the first enquiry.</p>
           </Reveal>
         </div>
         <div className="mt-16 grid gap-8 border-t border-line pt-10 text-center md:grid-cols-3">
@@ -116,7 +116,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-5 md:px-8">
           <Reveal dir="up"><h2 className="font-serif text-4xl">Why Meridian</h2></Reveal>
           <div className="mt-12 grid gap-10 md:grid-cols-4">
-            {[["Local expertise", "Deep knowledge of Lagos streets, papers, and what a plot actually floods."], ["Curated properties", "A selected portfolio. Not every listing on the market."], ["Professional service", "From the first note to the enquiry, one desk answers."], ["Trusted experience", "Clear rooms, clear title notes, no copied flyers."]].map(([t, d], i) => (
+            {[["Local expertise", "Deep knowledge of Lagos neighbourhoods, titles, and what a property will actually deliver."], ["Curated properties", "A selected portfolio. Not every listing on the market."], ["Professional service", "From the first enquiry through to completion, one team answers."], ["Trusted experience", "Clear rooms, clear papers, and guidance you can rely on."]].map(([t, d], i) => (
               <Reveal key={t} dir={i < 2 ? "left" : "right"}>
                 <p className="text-gold">0{i + 1}</p>
                 <h3 className="mt-3 font-serif text-2xl">{t}</h3>
